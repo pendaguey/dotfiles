@@ -89,3 +89,4 @@ fi
 # Hook direnv but only if direnv is installed
 if (( $+commands[direnv] )); then eval "$(direnv hook zsh)"; fi
 eval "$(rbenv init - zsh)"
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
